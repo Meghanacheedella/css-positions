@@ -1,0 +1,41 @@
+
+.card{
+    position: relative;
+    width: 1400px;
+    background-color: rgb(232, 132, 183);
+    border: 5px solid lightgray;
+    padding: 20px 10px;
+}
+.card-img{
+    width: 100%;
+    border-radius: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    position: absolute;
+    top: 40px;
+    color:black
+}
+.card2{
+    background-color: lightblue;
+    border: 4px white solid;
+    border-radius: 15px;
+    padding: 20px 10px;
+    width: 300px;
+    position: relative
+}
+.card2-img{
+    /* padding: 20px 10px; */
+    width: 100%;
+    border-radius: 20px;
+}
+.btn{
+    border: 4px white solid;
+    background-color:lightblue;
+    color: black;
+    border-radius: 10px;
+    padding: 10px 5px;
+}
