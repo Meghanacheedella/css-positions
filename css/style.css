@@ -2,8 +2,9 @@
 .card{
     position: relative;
     width: 1400px;
-    background-color: rgb(232, 132, 183);
-    border: 5px solid lightgray;
+    background-color: lightblue;
+    border: 5px solid white;
+    border-radius: 30px;
     padding: 20px 10px;
 }
 .card-img{
@@ -38,4 +39,13 @@
     color: black;
     border-radius: 10px;
     padding: 10px 5px;
+}
+.support{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    color:lightblue;
+    padding: 20px 10px;
+    border-radius: 20px;
 }
